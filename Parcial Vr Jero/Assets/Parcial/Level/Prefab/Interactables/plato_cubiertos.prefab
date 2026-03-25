@@ -751,7 +751,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2014282623591478251}
   m_Layer: 7
-  m_Name: FullPlate
+  m_Name: plato_cubiertos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

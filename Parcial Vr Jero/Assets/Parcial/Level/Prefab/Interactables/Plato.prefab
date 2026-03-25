@@ -73,7 +73,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 449722120964724176}
   _boundsCollider: {fileID: 8407696697894384081}
   _colliders:
-  - {fileID: 7567150165484029780}
+  - {fileID: 0}
 --- !u!114 &3379499938800698803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,6 +200,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 2816911790613380063}
   _kinematicWhileSelected: 1
   _throwWhenUnselected: 1
+  _forceKinematicDisabled: 0
 --- !u!1 &1860330275251472438
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7359068961066930617}
   m_Layer: 0
-  m_Name: Plate
+  m_Name: Plato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -296,7 +297,7 @@ GameObject:
   - component: {fileID: 9031071717892073801}
   - component: {fileID: 6812748253401554048}
   - component: {fileID: 4670285472397915589}
-  - component: {fileID: 7567150165484029780}
+  - component: {fileID: 7114936666135070296}
   m_Layer: 0
   m_Name: Mesh
   m_TagString: Untagged
@@ -372,8 +373,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7567150165484029780
-BoxCollider:
+--- !u!64 &7114936666135070296
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -390,9 +391,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.28047466, y: 0.023606874, z: 0.28047466}
-  m_Center: {x: -0.000000037252903, y: 0.0118289795, z: 0.00000014901161}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8869258273265193475, guid: 5fa9f029ba8332e42b373839e100507c, type: 3}
 --- !u!1 &8676549275145471917
 GameObject:
   m_ObjectHideFlags: 0
